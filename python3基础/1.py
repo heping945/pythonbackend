@@ -17,7 +17,7 @@ def _time():
 	return 66
 time.time = _time
 print(time.time())
-# 5		什么事自省（运行时判断一个对象的类型的能力）python 一切皆对象，用type，id，isinstance 获取对象类型信息
+# 5		什么是自省（运行时判断一个对象的类型的能力）python 一切皆对象，用type，id，isinstance 获取对象类型信息
 		# （inspect(/ɪn'spekt/)模块提供了获取更多对象信息的函数）
 # 6		列表和字典推导
 l = [i for i in range(10) if i % 2 ==0]
